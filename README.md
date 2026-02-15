@@ -1,5 +1,4 @@
-Markdown
-Copiar código
+
 # http_server.asm
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -25,25 +24,3 @@ Copiar código
 - NASM (Netwide Assembler)
 - GNU ld (link editor)
 - Ferramentas comuns de desenvolvimento (`make`, `gcc`, etc.)
-
-## Build
-
-```sh
-git clone https://github.com/sandbox-systms/http_server.asm.git
-cd http_server.asm
-make
-Run
-Após compilar, execute o binário resultante. Por padrão, o servidor ficará escutando em uma porta configurável no código ou via Makefile.
-Sh
-Copiar código
-./http_server
-Em um navegador ou via curl:
-Sh
-Copiar código
-curl http://localhost:8080
-
-## License
-Este projeto está licenciado sob a MIT License — consulte o arquivo LICENSE para mais detalhes.
-
-## Contributing
-Contribuições são bem-vindas. Abra issues ou pull requests para correções, melhorias ou sugestões de recursos.
